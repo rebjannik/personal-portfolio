@@ -8,6 +8,9 @@ header {
     margin-left: 25px;
 }
 
+p {
+    font-size: 20px;
+}
 header p {
     font-family: 'Monoton', cursive;
     color: #F67E7D;
@@ -50,7 +53,7 @@ h2 {
 .about img {
     grid-area: img;
     height: auto;
-    width: 235px;
+    width: 335px;
     margin-left: 25px;
 }
 
@@ -58,28 +61,32 @@ h2 {
     grid-area: text;
     width: auto;
     margin-left: 25px;
-    margin-right: 25px;;
+    margin-right: 25px;
 }
-.skills div {
+
+.skills {
+   text-align: center; 
+}
+
+.skills img {
     display: inline;
-}
-
-.skils img {
-    width: 30%;
-    height: auto;
-
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    width: auto;
 }
 
 footer {
-    display: inline;
+    display: block;
     margin-left: 25px;
+}
+
+.suprise {
+    text-align: center;
 }
 
 button {
     height: 50px;
     width: 75%;
-    margin-left: 25px;
-    margin-right: auto;
     background-color: #F67E7D;
-    align-self: center;
 }
