@@ -1,0 +1,85 @@
+body {
+    background-color: #1C2541;
+    color: white;
+}
+
+header {
+    height: 50px;
+    margin-left: 25px;
+}
+
+header p {
+    font-family: 'Monoton', cursive;
+    color: #F67E7D;
+    font-size: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #F67E7D;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Monoton', cursive;
+    color: #F67E7D;
+    font-size: 85px;
+    font-weight: lighter;
+}
+
+h2 {
+    font-family: "Monoton", cursive;
+    text-align: center;
+    color: #F67E7D;
+    font-size: 60px;
+    font-weight: lighter;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.about {
+    display: grid;
+    grid-template-areas: "header header header"
+                         "img text text " ;
+}
+
+.about h1 {
+    grid-area: header;
+}
+
+.about img {
+    grid-area: img;
+    height: auto;
+    width: 235px;
+    margin-left: 25px;
+}
+
+.about p {
+    grid-area: text;
+    width: auto;
+    margin-left: 25px;
+    margin-right: 25px;;
+}
+.skills div {
+    display: inline;
+}
+
+.skils img {
+    width: 30%;
+    height: auto;
+
+}
+
+footer {
+    display: inline;
+    margin-left: 25px;
+}
+
+button {
+    height: 50px;
+    width: 75%;
+    margin-left: 25px;
+    margin-right: auto;
+    background-color: #F67E7D;
+    align-self: center;
+}
