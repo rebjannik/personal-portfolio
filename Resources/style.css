@@ -1,6 +1,6 @@
 html {
     background-color: #1C2541;
-    color: white;
+    color: #EAE8ED;
     text-align: center;
 }
 
@@ -103,6 +103,7 @@ footer nav {
     width: 335px;
     margin-right: 40px;
     border-radius: 10%;
+    border: 4px solid #EAE8ED;
 }
 
 .about p {
