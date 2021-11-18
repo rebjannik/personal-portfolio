@@ -14,6 +14,7 @@ header {
     height: 50px;
     display: flex;
     flex-direction: column;
+    margin-top: 10px;
 }
 
 p {
@@ -39,6 +40,8 @@ h1 {
     color: #F67E7D;
     font-size: 85px;
     font-weight: lighter;
+    margin-top: 15px;
+    margin-bottom: 25px;
 }
 
 h2 {
@@ -47,8 +50,8 @@ h2 {
     color: #F67E7D;
     font-size: 60px;
     font-weight: lighter;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .about {
@@ -65,16 +68,21 @@ h2 {
     grid-area: img;
     height: auto;
     width: 335px;
-    padding-right: 25px;
+    padding-right: 40px;
 }
 
 .about p {
     grid-area: text;
     width: auto;
+    text-align: left;
 }
 
 .skills {
    text-align: center; 
+}
+
+skills div {
+    margin-bottom: 15px;
 }
 
 .skills img {
@@ -90,16 +98,20 @@ footer {
     margin-left: 25px;
     color:#F67E7D;
     display: flex;
+    padding-top: 10px;
+    margin-bottom: 5px;
 }
 
 footer p {
     position: absolute;
     left: 25px;
+    padding-bottom: 10px;
 }
 
 footer nav {
     position: absolute;
     right: 25px;
+    padding-bottom: 10px;
 }
 
 
@@ -111,4 +123,5 @@ button {
     height: 50px;
     width: 75%;
     background-color: #F67E7D;
+    margin-top: 10px;
 }
