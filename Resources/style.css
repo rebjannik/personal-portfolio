@@ -109,6 +109,7 @@ footer nav {
     grid-area: text;
     width: auto;
     text-align: left;
+    margin-top: 15px;
 }
 
 .skills {
