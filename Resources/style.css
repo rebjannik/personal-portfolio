@@ -1,18 +1,28 @@
-body {
+html {
     background-color: #1C2541;
     color: white;
+    text-align: center;
+}
+
+body {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 header {
     height: 50px;
-    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
 }
 
 p {
     font-size: 20px;
+    font-family: 'Nunito', sans-serif;
 }
+
 header p {
-    font-family: 'Monoton', cursive;
+    font-family: 'Merriweather', serif;
     color: #F67E7D;
     font-size: 30px;
 }
@@ -20,6 +30,7 @@ header p {
 nav a {
     text-decoration: none;
     color: #F67E7D;
+    padding-right: 25px;
 }
 
 h1 {
@@ -54,14 +65,12 @@ h2 {
     grid-area: img;
     height: auto;
     width: 335px;
-    margin-left: 25px;
+    padding-right: 25px;
 }
 
 .about p {
     grid-area: text;
     width: auto;
-    margin-left: 25px;
-    margin-right: 25px;
 }
 
 .skills {
@@ -79,7 +88,20 @@ h2 {
 footer {
     display: block;
     margin-left: 25px;
+    color:#F67E7D;
+    display: flex;
 }
+
+footer p {
+    position: absolute;
+    left: 25px;
+}
+
+footer nav {
+    position: absolute;
+    right: 25px;
+}
+
 
 .suprise {
     text-align: center;
