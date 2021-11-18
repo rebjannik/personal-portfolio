@@ -135,3 +135,42 @@ skills div {
 #picture {
     display: none;
 }
+
+.contact {
+    display: grid;
+    grid-template-areas: "title title"
+                         "img link"
+                         "img email"
+                         "img github";
+    padding-top: 15px;
+}
+
+.contact h1 {
+    grid-area: title;
+}
+
+.contact img {
+    width: 300px;
+    height: auto;
+    grid-area: img;
+    margin-top: 20px;
+}
+
+.contact div {
+    display: flex;
+    align-items: center;
+}
+
+.contact div img {
+    height: 100px;
+    width: auto;
+}
+
+.contact div p {
+    margin-left: 25px;
+}
+
+.contactFooter {
+    align-content: flex-end;
+    margin-top: 25px;
+}
