@@ -10,28 +10,9 @@ body {
     margin-right: auto;
 }
 
-header {
-    height: 50px;
-    display: flex;
-    flex-direction: column;
-    margin-top: 10px;
-}
-
 p {
     font-size: 20px;
     font-family: 'Nunito', sans-serif;
-}
-
-header p {
-    font-family: 'Merriweather', serif;
-    color: #F67E7D;
-    font-size: 30px;
-}
-
-nav a {
-    text-decoration: none;
-    color: #F67E7D;
-    padding-right: 25px;
 }
 
 h1 {
@@ -54,6 +35,58 @@ h2 {
     margin-bottom: 25px;
 }
 
+button {
+    height: 50px;
+    width: 75%;
+    background-color: #F67E7D;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+header {
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    text-align: left;
+}
+
+footer {
+    display: block;
+    margin-left: 25px;
+    color:#F67E7D;
+    display: flex;
+    padding-top: 10px;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-family: 'Merriweather', serif;
+    color: #F67E7D;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #F67E7D;
+    padding-right: 25px;
+}
+
+footer p {
+    position: absolute;
+    left: 25px;
+    padding-bottom: 10px;
+}
+
+footer nav {
+    position: absolute;
+    right: 25px;
+    padding-bottom: 10px;
+}
+
+
+
 .about {
     display: grid;
     grid-template-areas: "header header header"
@@ -68,7 +101,8 @@ h2 {
     grid-area: img;
     height: auto;
     width: 335px;
-    padding-right: 40px;
+    margin-right: 40px;
+    border-radius: 10%;
 }
 
 .about p {
@@ -93,35 +127,11 @@ skills div {
     width: auto;
 }
 
-footer {
-    display: block;
-    margin-left: 25px;
-    color:#F67E7D;
-    display: flex;
-    padding-top: 10px;
-    margin-bottom: 5px;
-}
-
-footer p {
-    position: absolute;
-    left: 25px;
-    padding-bottom: 10px;
-}
-
-footer nav {
-    position: absolute;
-    right: 25px;
-    padding-bottom: 10px;
-}
-
 
 .suprise {
     text-align: center;
 }
 
-button {
-    height: 50px;
-    width: 75%;
-    background-color: #F67E7D;
-    margin-top: 10px;
+#picture {
+    display: none;
 }
