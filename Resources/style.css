@@ -144,6 +144,8 @@ skills div {
 
 #picture {
     display: none;
+    width: 70%;
+    height: auto;
 }
 
 .contact {
