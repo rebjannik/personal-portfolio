@@ -2,17 +2,20 @@ html {
     background-color: #1C2541;
     color: #EAE8ED;
     text-align: center;
+    height: 100%;
 }
 
 body {
     width: 900px;
     margin-left: auto;
     margin-right: auto;
+    height: 100%;
 }
 
 p {
     font-size: 20px;
     font-family: 'Nunito', sans-serif;
+    line-height: 1.4;
 }
 
 h1 {
@@ -23,6 +26,7 @@ h1 {
     font-weight: lighter;
     margin-top: 30px;
     margin-bottom: 25px;
+    line-height: 1.5;
 }
 
 h2 {
