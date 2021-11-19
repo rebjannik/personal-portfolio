@@ -146,7 +146,22 @@ skills div {
     display: none;
     width: 70%;
     height: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+#show {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#reset {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 .contact {
     display: grid;
