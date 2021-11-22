@@ -224,9 +224,46 @@ skills div {
 }
 
 .tea p {
-    margin-right: 10%;
+    margin-left: 10%;
 }
 
 .coffee p {
     margin-left: 10%;
+}
+
+@media (max-width: 900px) {
+    body {
+        width: 95%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    img {
+        max-width: 85%;
+        height: auto;
+    }
+
+    .projects main {
+        text-align: center;
+        align-content: center;
+    }
+
+    .projects section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .projects img {
+        width: 100%;
+        height: auto;
+        align-self: center;
+    }
+
+    .projects section p {
+        width: 100%;
+        margin: 0;
+    }
+
 }
